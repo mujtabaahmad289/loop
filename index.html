@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Loop & Calculator</title>
+    <link rel="stylesheet" href="my.css">
+</head>
+<body>
+    
+<h1>Tables</h1>
+
+    <button class="button" onclick=" for (let x=0; x<20; x++)
+    console.log(`2*${x}=${x*2}`)">Table 2</button>
+
+<button class="button" onclick=" for (let x=0; x<20; x++)
+console.log(`3*${x}=${x*3}`)">Table 3</button>
+
+<button class="button" onclick=" for (let x=0; x<20; x++)
+console.log(`4*${x}=${x*4}`)">Table 4</button>
+
+<button class="button" onclick=" for (let x=0; x<20; x++)
+console.log(`5*${x}=${x*5}`)">Table 5</button>
+
+<h1></h1>
+
+<h1>Zakat Calculator</h1>
+<p>
+    <button 
+    onclick="zakat += `1`;
+    console.log(zakat)
+    ">1</button>
+    <button 
+    onclick="zakat += `2`;
+    console.log(zakat)
+    ">2</button>
+  <button 
+  onclick="zakat += `3`;
+  console.log(zakat)
+  ">3</button>
+</p>
+
+<p>
+<button 
+    onclick="zakat += `4`;
+    console.log(zakat)
+    ">4</button>
+    <button 
+    onclick="zakat += `5`;
+    console.log(zakat)
+    ">5</button>
+    <button 
+    onclick="zakat += `6`;
+    console.log(zakat)
+    ">6</button>
+
+
+</p>
+
+<p>
+<button 
+onclick="zakat += `7`;
+console.log(zakat)
+">7</button>
+<button 
+onclick="zakat += `8`;
+console.log(zakat)
+">8</button>
+<button 
+onclick="zakat += `9`;
+console.log(zakat)
+">9</button>
+</p>
+
+<p>
+<button 
+onclick="zakat += `0`;
+console.log(zakat)
+">0</button>
+<button 
+onclick="zakat = eval(zakat*0.025);
+if (zakat>12000)
+{console.log(zakat)}
+else
+{console.log(`No zakat`)}
+">=</button>
+
+</p>
+
+<p>
+<button onclick="
+zakat = ``;
+    console.log(zakat)
+    ">clear</button>
+</p>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    let zakat=``
+let x =0
+</script>
+
+</body>
+</html>
